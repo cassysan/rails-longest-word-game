@@ -1,0 +1,24 @@
+.letter {
+  display: flex;
+}
+
+.grid {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  font-style: 400;
+  font-size: 19px;
+  line-height: 29px;
+  color: white;
+  background-color: #5198D6;
+  padding: 5px;
+  margin: 10px;
+  width: 30px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.75);
+}
+
+.results {
+  font-family: FreightSansPro, Helvetica, sans-serif;
+  font-style: 400;
+  font-size: 19px;
+  line-height: 29px;
+}

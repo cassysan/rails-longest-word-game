@@ -1,0 +1,13 @@
+<h1>Result</h1>
+
+<% if @not_english  %>
+  <p class="results"> Sorry, but <strong><%= @word %></strong> <%=@not_english[:message]%> </p>
+<% elsif @not_grid %>
+  <p class="results">Sorry, but <strong><%= @word %></strong>  <%= @not_grid[:message] %> <%= @grid %></p>
+<% elsif @results %>
+  <p class="results">Congratulations. <strong><%= @word %></strong> <%= @results[:message] %></p>
+  <p class="results"> Your score is: <%= session[:score] %></p>
+<% end %>
+
+
+<%= link_to "Play the game again, you simple minded fool", "new" %>
